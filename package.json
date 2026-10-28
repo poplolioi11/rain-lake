@@ -1,0 +1,22 @@
+{
+  "name": "rain-lake",
+  "version": "0.2.0",
+  "description": "Rain on a lake, with smooth and ASCII variants, signed ripple interference and quiet underwater fish shadows.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Chen-Yu Chu (曲宸宇)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poplolioi11/rain-lake.git"
+  },
+  "homepage": "https://poplolioi11.github.io/rain-lake/",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "python3 -m http.server 4340 --bind 127.0.0.1",
+    "check": "node scripts/check.mjs",
+    "test": "node smooth/scripts/verify-wave.mjs && node smooth/scripts/verify-scene.mjs && node smooth/scripts/verify-scheduler.mjs && node ascii/scripts/verify-wave.mjs && node ascii/scripts/verify-scene.mjs && node ascii/scripts/verify-scheduler.mjs && node ascii/scripts/verify-ascii.mjs"
+  }
+}
