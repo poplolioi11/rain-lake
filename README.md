@@ -1,3 +1,40 @@
+# Rain Lake · 雨湖
+
+**A quiet, browser-based rain scene: ripples, interference, and slow fish shadows—in Smooth and ASCII.**
+
+**在瀏覽器裡看細雨落湖：交疊漣漪、波面干涉與緩慢魚影，提供平滑與 ASCII 兩種版本。**
+
+[English documentation](README.en.md) · [完整中文說明](#完整中文說明) · [Download｜下載 v0.2.0](https://github.com/poplolioi11/rain-lake/releases/tag/v0.2.0)
+
+## Try it｜直接試看
+
+[**Smooth｜平滑水波**](https://poplolioi11.github.io/rain-lake/smooth/) · [**ASCII｜字元水景**](https://poplolioi11.github.io/rain-lake/ascii/)
+
+![Rain Lake: ripples and fish shadows｜雨湖：漣漪與水下魚影](assets/smooth.jpg)
+
+No sign-in, package installation, or build step is needed to try the demos. Use it as a visual experiment, website background, or starting point for your own scene.<br>
+試看不需登入、安裝套件或打包；可作為視覺實驗、網站背景，或延伸成自己的水景。
+
+## Run locally｜本機開始
+
+```sh
+git clone https://github.com/poplolioi11/rain-lake.git
+cd rain-lake
+python3 -m http.server 4340 --bind 127.0.0.1
+```
+
+Open [Smooth](http://127.0.0.1:4340/smooth/) or [ASCII](http://127.0.0.1:4340/ascii/). Native ES modules require HTTP/HTTPS.<br>
+開啟上方本機連結；原生 ES modules 需透過 HTTP／HTTPS 使用。
+
+**MIT licensed · Human art direction, AI-assisted implementation.** This is an artistic wave simulation; device performance varies, and it is not a native wallpaper installer.<br>
+**MIT 授權，由人決定美術方向、透過 AI 協助實作。** 波面為美術模擬；效能依裝置而異，尚非原生桌布安裝包。
+
+**Themes｜主題：** Creative coding／創意程式 · ASCII art／字元藝術 · Procedural animation／程序動畫
+
+---
+
+<a id="完整中文說明"></a>
+
 # 雨湖 · Rain Lake
 
 細雨落在傾斜四十五度的湖面，擴散的漣漪交疊、增強或抵消，水下偶爾透出緩慢游動的魚影。暗灰藍、滿版、沒有畫面文字或控制列，也沒有岸景與音效。
